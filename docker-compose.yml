@@ -2,5 +2,7 @@ version: "3.9"
 services:
   autotss:
     build: .
+    environment:
+      - AUTOTSS_TOKEN=${AUTOTSS_TOKEN}
     volumes:
       - ./config/autotss.db:/App/Data/autotss.db
