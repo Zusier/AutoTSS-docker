@@ -1,6 +1,5 @@
 FROM python:3.9
-#FROM gorialis/discord.py
-#RUN useradd -ms /bin/bash -u 1000 -g root --password "" tss
+
 WORKDIR /app
 
 RUN pip3 install --no-cache-dir install \
