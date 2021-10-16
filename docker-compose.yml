@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  autotss:
+    build: .
+    volumes:
+      - ./config/autotss.db:/App/Data/autotss.db
