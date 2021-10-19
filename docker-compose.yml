@@ -5,4 +5,4 @@ services:
     environment:
       - AUTOTSS_TOKEN=${AUTOTSS_TOKEN}
     volumes:
-      - ./config/autotss.db:/App/Data/autotss.db
+      - ./config/autotss.db:/app/Data/autotss.db
